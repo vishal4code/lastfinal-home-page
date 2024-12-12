@@ -1,0 +1,38 @@
+.postCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.postCard__header {
+  display: flex;
+  align-items: center;
+}
+
+.postCard__header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postCard__body {
+  margin-top: 10px;
+}
+
+.postCard__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.postCard__footer__left, .postCard__footer__right {
+  display: flex;
+  align-items: center;
+}
+
+.postCard__footer__left i, .postCard__footer__right i {
+  margin-right: 5px;
+  cursor: pointer;
+}

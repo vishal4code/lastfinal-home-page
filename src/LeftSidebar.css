@@ -1,0 +1,37 @@
+.leftSidebar {
+  background-color: #f0f2f5;
+  width: 180px;
+  padding: 20px;
+}
+
+.leftSidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leftSidebar li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.leftSidebar li i {
+  margin-right: 10px;
+}
+
+/* Remove underline and default blue color from all links */
+.leftSidebar a {
+  text-decoration: none; /* Removes underline */
+  color: black;          /* Sets text color to black */
+}
+
+/* Optionally: Change link color on hover */
+.leftSidebar a:hover {
+  color: #007bff; /* Example hover color */
+}
+
+.leftSidebar span {
+  color: inherit; /* Ensure span text inherits the link color */
+}

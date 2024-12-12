@@ -1,0 +1,41 @@
+.feed {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  
+  .feed__inputContainer {
+    /* Style input field for creating posts */
+    margin-bottom: 20px;
+  }
+  /* ... (existing CSS) */
+
+.feed__inputContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.feed__inputContainer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feed__inputContainer input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.feed__inputContainer button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

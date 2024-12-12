@@ -1,0 +1,41 @@
+.rightSidebar {
+    background-color: #f0f2f5;
+    width: 270px;
+    padding: 20px;
+  }
+  /* ... (existing CSS) */
+
+.rightSidebar__user, .rightSidebar__event, .rightSidebar__birthday {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rightSidebar__user img, .rightSidebar__event img, .rightSidebar__birthday img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rightSidebar__user button, .rightSidebar__event button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rightSidebar__event__users img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+
+.rightSidebar hr {
+  border: 1px solid white;
+  margin: 20px 0;
+}
